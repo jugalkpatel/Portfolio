@@ -36,7 +36,7 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.3rem;
     border-radius: 0.5rem;
     color: var(--secondary-color);
 }
