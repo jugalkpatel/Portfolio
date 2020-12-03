@@ -36,7 +36,7 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 0.5rem;
     color: var(--secondary-color);
 }
@@ -67,23 +67,35 @@ hr {
     background-color: var(--primary-color);
     color : var(--secondary-color);
     padding: 1rem;
-    font-size: 1.3rem;
+    
     /* border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem; */
 }
 
 .navigation-bar .nav-logo {
+    font-size: 1.3rem;
     display: inline;
     font-weight: bold;
 }
 
+/* .nav-tray a {
+    font-size: 1rem;
+} */
+
 .navigation-bar .nav-tray {
+    padding: 0;
+    margin: 0;
     display: inline; 
     float: right;
     margin-block-start: 0px;
     margin-block-end: 0px;
     text-align: right;
 }
+
+/* .nav-tray a {
+    padding : 1rem;
+    display: block;
+} */
 
 .navigation-bar .nav-item {
     font-size: 1.5rem;
@@ -101,6 +113,7 @@ hr {
 }
 
 .header-img {
+    width: 100%;
     max-width: 600px;
     max-height: 400px;
 }
@@ -128,6 +141,10 @@ header h1 {
 
 .sect p {
     margin: 2rem 0;
+}
+
+.sect a {
+    padding: 1rem;
 }
 
 .ow-section {
