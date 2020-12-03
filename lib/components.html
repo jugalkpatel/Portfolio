@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Component Library</title>
+  <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Jugal's Component Library</h1>
+  <p>
+    I am attending NeoGCamp and I want to build a Library which would make all
+    my projects look good and consiestent.
+  </p>
+
+  <hr />
+
+  <h2>@Typography</h2>
+  <h1>This is biggest Heading.</h1>
+  <h2>This is second biggest Heading.</h2>
+  <p>paragraphs.</p>
+  <small>this is small text.</small>
+
+  <hr />
+
+  <h2>@Container</h2>
+  <h3>fluid Container</h3>
+  <div class="fluid-container">
+    this is fluid container. it will go full width of page. with some margin
+  </div>
+  <h3>Centered Container</h3>
+  <div class="centered-container">
+    <p>this is centered container. it will go till a given width and center
+      content.</p>
+  </div>
+
+  <hr />
+
+  <h2>@links</h2>
+  <a href="/" class="link primary-link">Primary link</a>
+  <a href="/" class="link secondary-link">Secondary link</a>
+  <hr />
+
+  <h2>@Lists</h2>
+  <h3>unordered list</h3>
+  <ul class="list-nonbullets">
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+  </ul>
+  <h3>inline unordered list</h3>
+  <ul>
+    <li class="list-inline">first item</li>
+    <li class="list-inline">second item</li>
+    <li class="list-inline">third item</li>
+  </ul>
+  <h3>Reversed ordered list</h3>
+  <ol reversed>
+    <li>first</li>
+    <li>second</li>
+    <li>third</li>
+  </ol>
+  <hr />
+
+  <h2>@header</h2>
+  <header class="hero-header fluid-container">
+    <img class="header-img" src="/Images/hero.svg" />
+    <h1>this is heading h1 inside <span class="header-highlight">header</span></h1>
+  </header>
+  <hr />
+
+  <h2>@nav</h2>
+  <nav class="centered-container navigation-bar">
+    <div class="nav-logo">Developer</div>
+    <ul class="nav-tray">
+      <li class="list-inline navitem-active">
+        <a href="/" class="link">Home</a>
+      </li>
+      <li class="list-inline">
+        <a href="/" class="link">Projects</a>
+      </li>
+      <li class="list-inline">
+        <a href="/" class="link">About</a>
+      </li>
+    </ul>
+  </nav>
+  <hr />
+
+
+  <h2>@section</h2>
+  <section class="sect centered-container">
+    <div>
+      <h1>White Section</h1>
+      <p>this will have white background</p>
+    </div>
+  </section>
+  <section class="sect ow-section centered-container">
+    <div>
+      <h1>Off white section</h1>
+      <p>this will have offwhite background</p>
+    </div>
+  </section>
+  <hr />
+
+  <h2>@footer</h2>
+  <footer class="footer centered-container">
+    <div class="footer-heading">header inside footer</div>
+    <ul class="footer-tray list-nonbullets">
+      <li class="list-inline"><a class="link" href="/">first-item</a></li>
+      <li class="list-inline"><a class="link" href="/">second-item</a></li>
+      <li class="list-inline"><a class="link" href="/">third-item</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>

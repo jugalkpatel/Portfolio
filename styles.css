@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: #1F2937;
+    --secondary-color:#FFFFFF;
+    --offwhite:#D1D5DB;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* containers */
+
+.fluid-container {
+    padding: 0 1rem;
+}
+
+.centered-container {
+    max-width: 800px;
+    padding: 1rem 1rem;
+    margin: auto;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.primary-link {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+}
+
+/* lists */
+.list-nonbullets {
+    list-style-type: none;
+}
+
+.list-inline {
+    display: inline;
+}
+
+/* navbar */
+
+.navigation-bar {
+    background-color: var(--primary-color);
+    color : var(--secondary-color);
+    padding: 1rem;
+    font-size: 1.3rem;
+    /* border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; */
+}
+
+.navigation-bar .nav-logo {
+    display: inline;
+    font-weight: bold;
+}
+
+.navigation-bar .nav-tray {
+    display: inline; 
+    float: right;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: right;
+}
+
+.navigation-bar .nav-item {
+    font-size: 1.5rem;
+    /* color: var(--secondary-color); */
+}
+
+.navigation-bar .navitem-active {
+    font-weight: bold;
+}
+
+/* Header */
+
+.hero-header {
+    text-align: center;
+}
+
+.header-img {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+header h1 {
+    color: var(--usegrey);
+    font-size: 2rem;
+}
+
+.header-highlight {
+    color: var(--primary-color);
+}
+
+/* section */
+
+.sect {
+    padding: 3rem;
+    text-align: center;
+} 
+
+.centered-container > h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.sect p {
+    margin: 2rem 0;
+}
+
+.ow-section {
+    text-align: center;
+    background-color: var(--offwhite);
+}
+
+/* footer */
+
+.footer {
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    /* border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem; */
+}
+
+.footer-tray {
+    /* color: var(--secondary-color); */
+    padding-inline-start: 0px;
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* icon */
+.fab, .fa-linkedin-in {
+    font-size: 2rem;
+}
