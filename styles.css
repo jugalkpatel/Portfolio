@@ -19,7 +19,8 @@ body {
 /* containers */
 
 .fluid-container {
-    padding: 0 1rem;
+    padding: 0rem 1rem;
+    margin-bottom: 3rem;
 }
 
 .centered-container {
@@ -67,9 +68,8 @@ hr {
     background-color: var(--primary-color);
     color : var(--secondary-color);
     padding: 1rem;
-    
-    /* border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem; */
+    /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
 }
 
 .navigation-bar .nav-logo {
@@ -159,8 +159,8 @@ header h1 {
     text-align: center;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    /* border-top-right-radius: 0.5rem;
-    border-top-left-radius: 0.5rem; */
+    /* border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem; */
 }
 
 .footer-tray {
@@ -169,11 +169,37 @@ header h1 {
 }
 
 .footer-heading {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 /* icon */
 .fab, .fa-linkedin-in {
     font-size: 2rem;
+}
+
+/* Projects page */
+
+ol {
+    font-size: 1.3rem;
+}
+
+.article small {
+    font-size: 0.9rem;
+}
+
+.article a {
+    font-size: 1rem;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.article p {
+    font-size: 1rem;
+    margin-block-start: 0.5rem;
+}   
+
+.article h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
