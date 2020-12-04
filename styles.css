@@ -4,6 +4,7 @@
     --primary-color: #1F2937;
     --secondary-color:#FFFFFF;
     --offwhite:#D1D5DB;
+    --usegray: #9CA3AF;
 }
 
 * {
@@ -118,8 +119,8 @@ hr {
     max-height: 400px;
 }
 
-header h1 {
-    color: var(--usegrey);
+.hero-header h1 {
+    color: var(--usegray);
     font-size: 2rem;
 }
 
