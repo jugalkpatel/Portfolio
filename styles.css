@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+/* try to change*/
 :root {
     --primary-color: #1F2937;
     --secondary-color:#FFFFFF;
@@ -204,4 +204,9 @@ ol {
 .article h1 {
     font-size: 1.5rem;
     margin-bottom: 0;
+}
+
+/* color */
+.bk-color {
+    background-color: var(--offwhite);
 }
