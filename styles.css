@@ -15,6 +15,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Lato', sans-serif;
+    background-color: #F3F4F6;
 }
 
 /* containers */
@@ -41,17 +42,23 @@ hr {
     padding: 0.3rem;
     border-radius: 0.5rem;
     color: var(--secondary-color);
+    text-align: center;
+    
 }
 
 .primary-link {
+    display: inline-block;
     color: var(--secondary-color);
     background-color: var(--primary-color);
+    width: 100px;
 }
 
 .secondary-link {
+    display: inline-block;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: 1px solid var(--primary-color);
+    width: 120px;
 }
 
 /* lists */
@@ -69,8 +76,8 @@ hr {
     background-color: var(--primary-color);
     color : var(--secondary-color);
     padding: 1rem;
-    /* border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem; */
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 .navigation-bar .nav-logo {
@@ -144,6 +151,10 @@ hr {
     margin: 2rem 0;
 }
 
+.sect .link {
+    display: inline;
+}
+
 .sect a {
     padding: 1rem;
 }
@@ -160,8 +171,8 @@ hr {
     text-align: center;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    /* border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem; */
+    /* border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem; */
 }
 
 .footer-tray {
@@ -183,6 +194,8 @@ hr {
 
 ol {
     font-size: 1.3rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .article small {
