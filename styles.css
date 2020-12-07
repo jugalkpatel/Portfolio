@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 /* try to change*/
 :root {
     --primary-color: #1F2937;
-    --secondary-color:#FFFFFF;
-    --offwhite:#D1D5DB;
+    --secondary-color: #FFFFFF;
+    --offwhite: #D1D5DB;
     --usegray: #9CA3AF;
+    --background: #F3F4F6;
 }
 
 * {
@@ -15,7 +17,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Lato', sans-serif;
-    background-color: #F3F4F6;
+    background-color: var(--background);
 }
 
 /* containers */
@@ -43,7 +45,7 @@ hr {
     border-radius: 0.5rem;
     color: var(--secondary-color);
     text-align: center;
-    
+
 }
 
 .primary-link {
@@ -56,7 +58,7 @@ hr {
 .secondary-link {
     display: inline-block;
     color: var(--primary-color);
-    background-color: var(--secondary-color);
+    background-color: var(--background);
     border: 1px solid var(--primary-color);
     width: 120px;
 }
@@ -74,7 +76,7 @@ hr {
 
 .navigation-bar {
     background-color: var(--primary-color);
-    color : var(--secondary-color);
+    color: var(--secondary-color);
     padding: 1rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -93,7 +95,7 @@ hr {
 .navigation-bar .nav-tray {
     padding: 0;
     margin: 0;
-    display: inline; 
+    display: inline;
     float: right;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -140,9 +142,9 @@ hr {
 .sect {
     padding: 3rem;
     text-align: center;
-} 
+}
 
-.centered-container > h1 {
+.centered-container>h1 {
     font-weight: bold;
     text-align: center;
 }
@@ -186,7 +188,8 @@ hr {
 }
 
 /* icon */
-.fab, .fa-linkedin-in {
+.fab,
+.fa-linkedin-in {
     font-size: 2rem;
 }
 
@@ -212,7 +215,7 @@ ol {
     text-align: justify;
     font-size: 1rem;
     margin-block-start: 0.5rem;
-}   
+}
 
 .article h1 {
     font-size: 1.5rem;
